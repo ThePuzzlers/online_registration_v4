@@ -1,0 +1,175 @@
+body {
+  background: white;
+  font-family: 'Merriweather', serif;
+}
+
+header {
+  height: 6rem;
+  width: 100%;
+  background-color: #2d3944;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 2rem;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro h2 {
+  padding-top: 2rem;
+  font-size: 1.2rem;
+  color: #2d3944;
+}
+
+.intro p {
+  font-size: .8rem;
+  padding: 1rem 2rem;
+  color: #ddd7d4;
+  line-height: 1.2;
+}
+
+.border {
+  background: #2d3944;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#border-big {
+  height: 5px;
+}
+
+#border-small {
+  height: 2px;
+  margin-top: 5px;
+}
+
+#border-small-newsletter {
+  height: 2px;
+  margin-top: 3rem;
+}
+
+form[class="form-contact"] {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+fieldset {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+legend {
+  padding-top: 2rem;
+}
+
+input[placeholder="required"] {
+  font-style: italic;
+  text-align: right;
+}
+
+
+
+
+input,
+select,
+textarea {
+  width: 100%;
+  position: relative;
+  height: 3rem;
+  background-color: #eff0f1;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+textarea {
+  height: 5rem;
+  padding-top: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  border: solid 2px black;
+  outline: none;
+  text-align: left;
+}
+
+textarea:focus {
+  padding-top: 1rem;
+}
+
+label {
+  margin: 2rem 0 1rem 0;
+  display: block;
+  font-size: .8rem;
+}
+
+select:focus {
+  border: solid 2px black;
+  outline: none;
+  text-align: left;
+}
+
+
+
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-appearance: none;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  border: solid 2px #2d3944;
+  background-color: transparent;
+  margin: 1rem 1rem 0 0;
+  display: inline-block;
+}
+
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  background: #2d3944;
+}
+
+input[type="radio"] {
+  border-radius: 50%
+}
+
+fieldset input:last-child  {
+  width: 50%
+}
+
+
+button {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 4rem;
+  border: none;
+  background: #53bab4;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+
+  .wrapper {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
