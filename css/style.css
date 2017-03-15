@@ -18,6 +18,12 @@ h1 {
   vertical-align: middle;
 }
 
+h3 {
+  padding-top: 2rem;
+  font-size: .7rem;
+  text-transform: uppercase;
+}
+
 
 .intro {
   text-align: center;
@@ -35,6 +41,8 @@ h1 {
   color: #ddd7d4;
   line-height: 1.2;
 }
+
+
 
 .border {
   background: #2d3944;
@@ -138,6 +146,15 @@ label {
   font-size: .8rem;
 }
 
+label.general-checkboxes {
+  display: inline;
+  margin: 2rem 0 0 0;
+}
+
+label.general-textarea {
+  margin: 2rem 0 0rem 0;
+}
+
 select:focus {
   border: solid 2px;
   outline: none;
@@ -196,6 +213,8 @@ button {
   border-radius: 5px;
   margin-top: 2rem;
 }
+
+
 
 @media screen and (min-width: 768px) {
 

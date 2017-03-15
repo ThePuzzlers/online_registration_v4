@@ -48,7 +48,7 @@
 
           <label for="state">State</label>
           <select id="state" name="user_state">
-            <option value="Choose">Choose State</option>
+            <option selected hidden disabled value="Choose">Choose State</option>
             <option value="Nevada">Nevada</option>
             <option value="Arizona">Arizona</option>
             <option value="California">California</option>
@@ -66,17 +66,27 @@
 
     <fieldset>
         <legend>Newsletter</legend>
-        <label>Search the Newsletter you would like to receive</label>
-        <input type="checkbox" class="regular-checkbox" name="html_news">HTML News<br>
-        <input type="checkbox" name="html_news">HTML News<br>
-        <input type="checkbox" name="html_news">HTML News<br>
+        <h3>Select the Newsletter you would like to receive</h3>
+        <input type="checkbox" id="html_checkboxes" class="html-checkbox" name="html_news">
+        <label for="html_checkboxes" class="general-checkboxes">HTML News</label><br>
 
-        <label>Newsletter Format</label>
-        <input type="radio" name="newsletter_format">HTML<br>
-        <input type="radio" name="newsletter_format">Plain Text<br>
+        <input type="checkbox" id="css_checkboxes" class="css-checkbox" name="html_news">
+        <label for="css_checkboxes" class="general-checkboxes">CSS News</label><br>
 
-      <label>Other topics you'd like to hear about</label>
-        <textarea name="name"></textarea>
+        <input type="checkbox" id="js_checkboxes" class="js-checkbox" name="html_news">
+        <label for="js_checkboxes" class="general-checkboxes">JS News</label><br>
+
+
+        <h3>Newsletter Format</h3>
+        <input type="radio" id="radio_buttons_html" name="newsletter_format">
+        <label for="radio_buttons_html" class="general-checkboxes">HTML</label><br>
+        <input type="radio" id="radio_buttons_plain" name="newsletter_format">
+        <label for="radio_buttons_plain" class="general-checkboxes">Plain Text</label><br>
+
+
+      <h3>Other topics you'd like to hear about</h3>
+      <label for="textarea" class="general-textarea">your message</label><br>
+        <textarea id="textarea" name="name"></textarea>
 
       <button type="submit" name="signup_button">Sign Up</button>
 
